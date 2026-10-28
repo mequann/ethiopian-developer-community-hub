@@ -1,0 +1,1 @@
+export function Footer() { return <footer className="bg-[#112418] px-6 py-8 text-sm text-stone-300 sm:px-10"><div className="mx-auto flex max-w-6xl flex-wrap justify-between gap-3"><p>© 2026 Ethiopian Developer Community Hub</p><p>Built for builders, by builders.</p></div></footer>; }

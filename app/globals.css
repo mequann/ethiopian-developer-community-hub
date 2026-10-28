@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+:root { --ink: #112418; --cream: #f8f5ed; --gold: #f6c84c; --green: #0c7c59; }
+* { box-sizing: border-box; }
+body { background: var(--cream); color: var(--ink); font-family: Arial, Helvetica, sans-serif; }
+a { text-decoration: none; }
+::selection { background: var(--gold); color: var(--ink); }

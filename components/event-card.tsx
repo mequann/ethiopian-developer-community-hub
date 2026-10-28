@@ -1,0 +1,2 @@
+import type { Event } from "@/lib/types";
+export function EventCard({ event }: { event: Event }) { return <article className="rounded-2xl bg-white p-6 shadow-sm"><p className="font-bold text-[#0c7c59]">{event.date}</p><h3 className="mt-3 text-xl font-bold">{event.title}</h3><p className="mt-2 text-sm text-stone-600">{event.format} · {event.location}</p><p className="mt-4 text-sm leading-6 text-stone-700">{event.description}</p><span className="mt-5 inline-block text-sm font-bold">{event.community}</span></article>; }

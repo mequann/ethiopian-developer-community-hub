@@ -1,0 +1,2 @@
+type Props = { title: string; description: string; variant?: "empty" | "error" };
+export function StateMessage({ title, description, variant = "empty" }: Props) { const color = variant === "error" ? "border-red-200 bg-red-50 text-red-950" : "border-stone-200 bg-white text-stone-800"; return <div className={`rounded-2xl border p-8 text-center ${color}`}><h2 className="text-xl font-bold">{title}</h2><p className="mx-auto mt-2 max-w-md text-sm leading-6 opacity-80">{description}</p></div>; }
